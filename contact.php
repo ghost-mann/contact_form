@@ -1,4 +1,5 @@
 <?php
+echo 'My first php script';
 ?>
 
 <!DOCTYPE html>
@@ -9,6 +10,7 @@
     <title>contact form</title>
 </head>
 <body>
+<form action="contact.php" method="post">
 <div class="parent-container">
     <div class="centered-div">
     <h1>Contact Form</h1>
@@ -26,7 +28,8 @@
     </label>
     <h3></h3>
     </div>
-    <button type="button">SUBMIT</button>
+    <input type="submit">
 </div>
+</form>
 </body>
 </html>
