@@ -43,11 +43,12 @@
     <h3>First Name: </h3>
         <input type="text" name="firstName" value="<?php echo isset($_POST['firstName']) ? htmlspecialchars($_POST['firstName']) : ''; ?>" placeholder="Enter first name">
     <h3>Last Name: </h3>
-        <input type="text" name="firstName" value="<?php echo isset($_POST['firstName']) ? htmlspecialchars($_POST['lastName']) : ''; ?>" placeholder="Enter last name">
+        <input type="text" name="lastName" value="<?php echo isset($_POST['lastName']) ? htmlspecialchars($_POST['lastName']) : ''; ?>" placeholder="Enter last name">
     <h3>Email:</h3>
-        <input type="text" name="firstName" value="<?php echo isset($_POST['firstName']) ? htmlspecialchars($_POST['email']) : ''; ?>" placeholder="Enter email">
+        <input type="text" name="email" value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>" placeholder="Enter email">
     <h3></h3>
     </div>
+    <br>
     <input type="submit">
 </div>
 </form>
